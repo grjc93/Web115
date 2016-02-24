@@ -1,0 +1,194 @@
+body {
+    font-family:fantasy,sans-serif;
+    font-size: 16px;
+    background-color:bisque;
+    color:darkslategrey;
+    margin: 0;
+    padding:0;
+}
+
+header {
+    text-align; center;
+    padding: 25px;
+    
+}
+header h1 {
+    margin-top: 0;
+    margin-bottom; 0.3em;
+    font-size: 4em;
+    font-family: 'Architects Daughter', cursive;
+    /*font-family: 'ex0 2', sans-serif;*/
+    text-shadow: 1px 1 px 1 px grey;
+}
+nav ul{
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline-block;
+    list-style-type: none;
+}
+
+nav a {
+    text-decoration: none;
+    background: bisque;
+    color:darkslategrey;
+    padding: 3px 5px;
+    border: 3px solid trasnparent;
+    border-radius: 5px;
+    margin: 5px;
+    font-family: 'exp 2', sans-serif;
+    font-size: 1.2em;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    -webkit-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+    display: inline-block;
+}
+
+nav a.current {
+    background:grey;
+}
+
+nav a:hover {
+    background:grey;
+    border-color:darkgray;
+}
+
+.container {
+    max-width: 80em;
+    margin: 0 auto;
+    padding: 20px;
+    
+}
+
+p {
+    font-size: 1.2 em;
+    line-height: 140%;
+}
+
+.intro-paragraph {
+    /*I am aware I don't need this but I want to make it nice...*/
+    text-align: center;
+}
+
+code {
+    /*I am aware I don't need this but this is just for my own reference*/
+    display: inline-block;
+    background: rgba (225, 225, 225, 0.3em);
+    padding: 0px 6px;
+    border-radius: 5px;
+    box-shadow: inset 0 0 0 1px rgba (0, 0, 0, 0.15);
+    
+}
+
+footer{
+    text-align: center;
+    
+}
+
+.clearfix:before,
+.clear-fix: after {
+    content: '';
+    display: table;
+}
+
+.clearfix:after{
+    clear:both;
+}
+
+figure{
+    margin: 0;
+}
+
+figure img {
+    width: 100%;
+    display:block;
+}
+
+.float-grid figure {
+    width: 25%;
+    float: left;
+    margin: 0;
+}
+
+.float-grid figure:nth-of-type(4n+1){
+    clear:left;
+}
+
+.column-grid .gallery {
+    -webkit-columns: 3;
+    -moz-columns: 3;
+    columns: 3;
+}
+
+.column-grid figure {
+    
+    margin: 0 0 20px;
+    width: 100%
+}
+
+.column-grid figure img {
+    border: 15px solid rgba (225, 225, 225, 0.5);
+    box-sizing: border-box;
+}
+
+.caption-grid .gallery {
+    -webkit-columns: 3;
+    -moz-columns: 3;
+    columns: 3;
+}
+
+.caption-grid figure {
+    margin: 0 0 20px;
+    width: 100%;
+    position:relative;
+    
+}
+.caption-grid figcaption {
+    padding: 10px;
+    background: rgba (0, 0, 0, 0.5);
+    color:#fff;
+    text-align: center;
+    border-style: solid;
+    border-color: #fff;
+    border-width: 0 5px 5 px;
+    position: absolute;
+    width: 100%;
+    bottom: 0px;
+}
+
+.caption-grid figure img {
+    border-width: 5px 5 px 0;
+    
+}
+
+.caption-grid figcaption, 
+.caption-grid figure img {
+    border-style: solid;
+    box-sizing: border-box;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
